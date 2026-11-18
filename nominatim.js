@@ -1,5 +1,5 @@
 
-const Geocoder = {
+const Nominatim = {
 
 	geocode: function(placename, callback) {
 		$.ajax({
